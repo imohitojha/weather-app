@@ -1,0 +1,139 @@
+/* Style for the main container of the Present card */
+.main-container {
+  font-family: 'Varela Round', sans-serif; 
+}
+
+/* Style for the Present card container */
+.pCard-container {
+  background: linear-gradient(to bottom, #51a4db 0%, #73bae1 100%);
+  color: black;
+}
+
+
+/* For Screen Size of minimum width 920px*/
+@media screen and (min-width: 920px) {
+  .main-container {
+    width: 900px;
+    margin: 8px auto;
+    font-size: 1.1em;
+  }
+}
+
+/* For Screen Size of maximum width 788px to 300px*/
+@media screen and (max-width: 788px) {
+  .pCard-container{
+    font-size:10px;
+  }
+  .btn{
+    padding: 4px;
+    font-size: 12px;
+  }
+}
+
+/* For Screen Size of maximum width 300px*/
+@media screen and (max-width: 300px) {
+  .pCard-container{
+    font-size:8px;
+  }
+}
+
+
+/* location-and-date */
+.location-and-date {
+  width: 100%;
+}
+
+/*Div containing location-and-date */
+.location-and-date__location {
+  margin: 0;
+  font-size: 2em;
+  font-weight: 600;
+}
+
+
+
+/* current-temperature */
+.current-temperature {
+  display: flex;
+  margin-top: 0.25em;
+  width: 100%;
+}
+
+/* Temperature icon container */
+.current-temperature__icon-container {
+  flex-grow: 1.25;
+  text-align: center;
+}
+
+/* Temperature content container */
+.current-temperature__content-container {
+  flex-grow: 1;
+  text-align: center;
+}
+
+/* Temperature icon */
+.current-temperature__icon {
+  width: 8.5em;
+}
+
+/* Temperature value */
+.current-temperature__value {
+  font-size: 5.25em;
+  font-weight: 300;
+}
+
+/* Temperature summary */
+.current-temperature__summary {
+  margin-top: -0.5em;
+  margin-left: -0.6em;
+  text-align: center;
+  font-size: 1.125em;
+}
+
+
+
+/* current-stats */
+.current-stats {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 1em;
+  width: 100%;
+  border-top: 1px solid rgba(255,255,255,0.5);
+  border-bottom: 1px solid rgba(255,255,255,0.5);
+}
+
+@media screen and (min-width: 700px) {
+  .current-stats {
+    margin-bottom: 1em;
+    padding-bottom: 0;
+    border-top: none;
+    border-bottom: none;
+    border-left: 1px solid rgba(255,255,255,0.5);
+  }
+}
+
+/* Current status value */
+.current-stats__value {
+  margin-top: 1em;
+  font-size: 1.44em;
+}
+
+/* Current status label */
+.current-stats__label {
+  color: rgba(255,255,255,0.6);
+}
+
+/* For Screen Size of minimum width 700px*/
+@media screen and (min-width: 700px) {
+  .current-temperature,
+  .current-stats {
+    width: 50%;
+  }
+}
+
+/* Style for the weather icon */
+.weather-day-icon {
+  width: 100px;
+  display: block;
+  margin: 0 auto;
+}

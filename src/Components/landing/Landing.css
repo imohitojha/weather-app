@@ -1,0 +1,179 @@
+.main-lan{
+    min-height: 100vh;
+}
+
+.landing-container {
+    min-width: 100%;
+    min-height: 100%;
+    margin: auto;
+    margin-top: 65px;
+    background: linear-gradient(to right, #53a5dc 0%, #96c2e8 100%);  
+    font-family: 'Inconsolata', monospace;
+    font-weight: bold;
+    padding: 40px 0px;
+    color: black;
+    transition: all .3s;
+}
+
+/* Main Inner Card */
+.main-inner-card{
+    width:25%;
+}
+
+/* Main Extra Card */
+.extra-inner-card{
+    width: 25%;
+    margin: 10px;
+}
+
+/* Card Hover Effect */
+.card:hover {
+    transform: scale(1.02);
+}
+
+/* Background Colour for Cards containg Inner Cards */
+.bg-landing{
+    /* background: linear-gradient(to left, rgb(97, 103, 221) 0%, rgb(165, 210, 236) 100%); */
+    background: linear-gradient(to bottom, #51a4db 0%, #73bae1 100%);
+}
+
+/* Background Colour for Card containing Icon */
+.bg-card-icon-landing{
+    /* background-color: #95b9e8; */
+    background: linear-gradient(to bottom, #51a4db 0%, #73bae1 100%);
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px 5px rgba(0,0,0, 0.5);
+    width:18rem;
+    font-size:23px;
+}
+
+/* Second Card Box Styling*/
+.card-main-landing{
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px 5px rgba(0,0,0, 0.5);
+    font-size: calc(0.9vw + 1vmin);
+}
+
+
+/* Third Card Box Styling*/
+.card-extra-landing{
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 5px rgba(0,0,0, 0.5);
+    margin: auto;
+    font-size: calc(0.9vw + 1vmin);
+}
+
+/* Inner Card Box Styling*/
+.card-main-landing div div,.card-extra-landing div div{
+    
+    border-radius: 10px;
+    box-shadow: 6px 6px 5px rgba(34, 35, 58, 0.2);
+}
+
+/* Display of the div inside main card */
+.landing-main-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/* Display of the div inside extra card */
+.landing-extra-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+/* Main Card Width */
+/* For Screen Size 1261px or less*/
+@media only screen and (max-width: 1261px) {
+    .card-main-landing{
+        width : 90%;
+    }
+    .main-lan{
+        min-height: 100vh;
+    }
+}
+
+/* Content Styling */
+/* For Screen Size 781px or less*/
+@media only screen and (max-width: 781px) {
+    
+    .card-extra-landing p,.card-main-landing p{
+        letter-spacing: 1pt;
+    }
+    
+    .card-span-landing::before{
+        content: "\A";
+        white-space: pre;
+    }
+    .bg-card-icon-landing{
+        font-size: calc(1vw + 1vmin + 1vmin);
+    }
+
+}
+
+/* For Screen Size of width 544px or less and minimum height 200px or more */
+@media only screen and (max-width: 544px) and (min-height:200px){
+    .landing-main-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .landing-extra-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    .main-inner-card{
+        width:100%;
+        margin-bottom: 10px;
+    }
+    .extra-inner-card{
+        width: 100%;
+        margin-bottom: 10px;
+        margin-right: 10px;
+    }
+    .card-main-landing{
+        font-size: calc(1vw + 1vh + 1vmin );
+    }
+    .card-extra-landing{
+        font-size: calc(1vw + 1vh + 1vmin);
+    }
+    .bg-card-icon-landing{
+        font-size: calc(1vw + 1vmin + 2vmin);
+    }
+}
+
+/* For Screen Size of width 281px or less */
+@media only screen and (max-width:281px) {
+    .bg-card-icon-landing{
+        width: 15rem;
+    }
+
+}
+h2{
+    font-family: 'Courgette', cursive;
+}
+@media screen and (min-width: 758px) {
+.main-lan{
+    min-height:90vh;
+}
+}
+
+@media screen and (height: 1024px) {
+    .main-lan{
+       min-height:81vh;
+    }
+    .bg-card-icon-landing{
+        font-size: 15px;
+    }
+}

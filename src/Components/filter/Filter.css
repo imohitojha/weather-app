@@ -1,0 +1,22 @@
+/* Style for the select menu */
+select {
+    text-align-last: center;
+    text-align: center;
+    -ms-text-align-last: center;
+    -moz-text-align-last: center;
+ }
+
+ /* Dropdown menu display */
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+
+ /* Dropdown Toggle display */ 
+.dropdown>.dropdown-toggle:active {
+      pointer-events: all;
+  }
+
+/* Input background */
+input{
+    background-color:rgba(red, green, blue, 0.7)!important;
+ }

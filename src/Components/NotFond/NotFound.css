@@ -1,0 +1,10 @@
+.notFound-container {
+    min-width: 100%;
+    min-height: 85vh;
+    margin: auto;
+    margin-top: 65px;
+    background: linear-gradient(to right, #53a5dc 0%, #96c2e8 100%); 
+    padding: 40px 0px;
+
+    transition: all .3s;
+}

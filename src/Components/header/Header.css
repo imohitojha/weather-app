@@ -1,0 +1,22 @@
+/* Style for the body tag */
+body {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Style for the icon on the navigation bar */
+.navbar img {
+    width: 40px;
+    height: 40px;
+}
+
+/* Background for the navbar */
+.navbar{
+    background-color: black;
+}
+
+/* Navbar links hover effect */
+.nav-link:hover{
+    background-color: rgb(31, 101, 182);
+    text-decoration: "none";
+}

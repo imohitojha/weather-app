@@ -1,0 +1,40 @@
+{
+  "weather_db": [
+    {
+      "name": "Gadag",
+      "city_id": 1271850,
+      "email": "john@gmail.com",
+      "id": 1
+    },
+    {
+      "name": "Chennai",
+      "city_id": 1264527,
+      "email": "john@gmail.com",
+      "id": 2
+    },
+    {
+      "name": "Mumbai",
+      "city_id": 1275339,
+      "email": "john@gmail.com",
+      "id": 4
+    },
+    {
+      "name": "Kanija Bhavan",
+      "city_id": 6695236,
+      "email": "john@gmail.com",
+      "id": 5
+    },
+    {
+      "name": "Kanija Bhavan",
+      "city_id": 6695236,
+      "email": "p@gmail.com",
+      "id": 6
+    },
+    {
+      "name": "Mumbai",
+      "city_id": 1275339,
+      "email": "p@gmail.com",
+      "id": 7
+    }
+  ]
+}

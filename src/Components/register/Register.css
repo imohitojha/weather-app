@@ -1,0 +1,89 @@
+/* For the screen with minimum width 1200px */
+@media only screen and (min-width: 1200px) {
+    .conditons-register{
+        font-size: 1vw
+    }
+    .register-container{
+        width:35%;
+    }
+}
+
+
+/* For Screen Size between 992px and 1200px*/
+@media only screen and (max-width: 1200px) {
+    .conditons-register{
+        font-size: 1.2vw  
+    }
+    .register-container{
+        width:35%;
+    }
+}
+
+/* For Screen Size between 843px and 992px*/
+@media only screen and (max-width: 992px) {
+    .conditons-register{
+        font-size: 1.5vw  
+    }
+    .register-container{
+        width:40%;
+    }
+}
+
+/* For Screen Size between 768px and 843px*/
+@media only screen and (max-width: 843px) {
+    .register-container{
+        margin-top: 120px;
+        margin-bottom: 20px; 
+        border-radius: 15px;
+    }
+    .register-container{
+        width:50%;
+    }
+}
+
+/* For Screen Size between width 580px and 768px*/
+@media only screen and (max-width: 768px) {
+    .conditons-register{
+        font-size: 1.8vw  
+    }
+    .register-container{
+        width:50%;
+        margin-top: 100px;
+    }
+}
+
+/* For Screen Size of width 580px or less*/
+@media only screen and (max-width: 580px) {
+    .conditons-register{
+        font-size: 2.3vw  
+    }
+    .register-container{
+        width:70%;
+    }
+}
+
+/* Container For Register */
+/* For Screen Size of width 843px or greater */
+@media only screen and (min-width: 843px) {
+    .register-container{
+        margin-top: 100px;
+        margin-bottom: 20px; 
+        border-radius: 30px;
+    }
+}
+
+/* Style for register container */
+.main-register{
+    min-height: 75.2vh;
+}
+
+/* For Screen Size of height 1024px */
+@media screen and (height: 1024px) {
+    .main-register{
+        min-height: 72vh;
+    }
+    .register-container{
+        height: 60vh;
+        margin-top: 150px;
+    }
+}

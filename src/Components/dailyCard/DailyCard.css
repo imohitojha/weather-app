@@ -1,0 +1,105 @@
+/* Style for forcast days container */
+.forecast-days {
+  transition: all .3s ease-in-out;
+  font-family: 'Varela Round', sans-serif;
+  border: 1px solid rgb(90, 53, 53);
+  border-radius: 5px;
+
+}
+
+/* Hover effect on the container */
+.forecast-days:hover {
+transform: scale(1.01);
+}
+
+/* Style for the row in the container */
+.forecast-days__row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 0.3em;
+  padding: 0.8em 0;
+  width: 100%;
+  border-radius: 5px;
+  background-color: rgba(158, 158, 158, 0.2);
+  color: rgba(255,255,255,0.8);
+  font-size: 1.19em;
+  text-align: center;
+}
+
+/* Sttles for the labels in the container */
+.forecast-days__label {
+  /* color: rgba(255,255,255,0.6); */
+  font-size: 0.83em;
+  color: rgb(0, 0, 0);
+}
+
+/* Style for the date, high/low temp,icon.rain and wind divs */
+.forecast-days__date,
+.forecast-days__high,
+.forecast-days__low,
+.forecast-days__icon,
+.forecast-days__rain,
+.forecast-days__wind {
+  width: 33.33333%;
+  font-size: 0.95em;
+}
+
+/* Width for the weather icon image */
+.forecast-days__icon img{
+  width: 3rem;
+}
+
+/* MArgin for the date, high/low temp */
+.forecast-days__date,
+.forecast-days__high,
+.forecast-days__low {
+  margin-bottom: 0.6em;
+}
+
+/* For screen of the minimum width 450 px */
+@media screen and (min-width: 450px) {
+  .forecast-days__date,
+  .forecast-days__high,
+  .forecast-days__low,
+  .forecast-days__icon,
+  .forecast-days__rain,
+  .forecast-days__wind {
+    width: 16.666666%;
+    margin-bottom: initial;
+  }
+
+  /* Ordering of the date */
+  .forecast-days__date {
+    order: -2;
+  }
+
+  /* Ordering of the weather icon */
+  .forecast-days__icon {
+    order: -1;
+    width: 3rem;
+  }
+
+  /* Width of the weather icon image */
+  .forecast-days__icon img{
+    width: 3rem;
+  }
+}
+
+/* For screen of the maximum width 788px */
+@media screen and (max-width: 788px) 
+{
+  .forecast-days__row{
+  font-size:16px;
+  }
+}
+
+/* For screen of the minimum width 788px */
+@media screen and (min-width: 788px) 
+{
+  .forecast-days__row{
+  font-size:30px;
+  }
+
+}

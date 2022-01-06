@@ -1,0 +1,26 @@
+@media screen and (min-width: 768px) {
+  .float {
+      float:right;
+  }
+}
+
+footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: rgb(199, 194, 194);
+    text-align: center;
+    margin-top: 10%;
+  }
+
+footer a {
+   text-decoration: none;
+}
+.bg-dimdark{
+    background-color: #292a2b;
+}
+.btn-floating:hover{
+  transform: scale(1.1);
+}
+

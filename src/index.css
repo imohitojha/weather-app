@@ -1,0 +1,29 @@
+/* Box Sizing fpr all the elements in the webpage */
+* {
+
+  box-sizing: border-box;
+}
+
+/* Style for the Body */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: auto;
+  font-size: 100%;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  height: 100%;
+  background: linear-gradient(to right, #53a5dc 0%, #96c2e8 100%); 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* Any code Style */
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

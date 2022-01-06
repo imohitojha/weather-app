@@ -1,0 +1,41 @@
+/* For Screen Size of width 758px or more*/
+@media screen and (min-width: 758px) {
+    #logindiv{
+        width:30%;
+    }
+    .login-in{
+        margin-inline-start: 15px;
+        margin-inline-end: 15px;
+    }
+    .main-login{
+        min-height: 72vh;
+    }
+}
+
+/* For Screen Size of width 758px or less*/
+@media screen and (max-width: 758px) {
+    #logindiv{
+        width:80%;
+    }
+    .login-in{
+        margin-inline-start: 15px;
+        margin-inline-end: 15px;
+    }
+    .main-login{
+        min-height: 60vh;
+    }
+}
+
+/* For screen size of the height 1024px */
+@media screen and (height: 1024px) {
+    .main-login{
+        min-height: 74vh;
+    }
+    #logindiv{
+        width:70%;
+        height:60vh;
+    }
+    .login-in{
+        font-size:20px;
+    }
+}

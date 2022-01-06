@@ -1,0 +1,61 @@
+/* Style of the container */
+.card-container {
+  box-shadow: 10px 10px 10px 10px rgba(0,0,0, 0.5);
+  background: linear-gradient(to bottom, #51a4db 0%, #73bae1 100%);
+  /* font-family: 'Varela Round', sans-serif; */
+  font-family: 'Inconsolata', monospace;
+  color: #000;
+}
+
+/* Style of the temperature icon */
+.fav-current-temperature__icon {
+  width: 10.5em;
+  margin-top: -10px;
+}
+
+/* Style for current status div */
+.fav-current-stats {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 1em;
+  width: 100%;
+  border-top: 1px solid rgba(255,255,255,0.5);
+  border-bottom: 1px solid rgba(255,255,255,0.5);
+}
+
+/* Style for current temperature div */
+.fav-current-temperature {
+  display: flex;
+  margin-top: 0.25em;
+  width: 100%;
+}
+
+/* Style for current status value div */
+.fav-current-stats__value {
+  margin-top: 1em;
+  font-size: 1.44em;
+}
+
+/* Style for current status label div */
+.fav-current-stats__label {
+  color: rgba(255,255,255,0.6);
+}
+
+/* Box style for location and date */
+.fav-location-and-date {
+    margin-left: 10px;
+    width: 100%;
+}
+
+/* Font Size for current temperature */
+.current-temperature__value {
+  font-size: 6vw;
+}
+
+/* For screen sizes of the maximum width 860px */
+@media screen and (max-width: 860px) {
+  .card-container {
+    margin-left: 10px;
+    font-size: 0.7em;
+  }
+}
